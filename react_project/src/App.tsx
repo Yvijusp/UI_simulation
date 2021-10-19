@@ -1,5 +1,11 @@
+import { GlobalStyle } from './GlobalStyle';
+
 function App() {
-  return <>Netflix simulations</>;
+  return (
+    <div>
+      <GlobalStyle />
+    </div>
+  );
 }
 
 export default App;
