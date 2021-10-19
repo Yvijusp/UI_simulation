@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 * {
@@ -8,7 +9,8 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  font-family: 'Manrope';
+  font-family: "Manrope", sans-serif;
+  background: #B8B8B8;
 }
 
 h1 {
@@ -57,7 +59,21 @@ h6 {
   --steelgrey-color: #E2E6E9;
   --lightgrey-color: #F2F2F2;
   --white-color: #FFFFFF;
-
 }
 
+`;
+
+export const Title01 = styled.h4`
+  font-size: 32px;
+  font-weight: 700;
+`;
+export const Title02 = styled.h4`
+  font-size: 24px;
+  font-weight: 600;
+`;
+
+export const Caption = styled.span`
+  font-size: var(--caption);
+  opacity: 0.7;
+  font-weight: 500;
 `;
