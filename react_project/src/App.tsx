@@ -1,5 +1,5 @@
 function App() {
-  return <>Netflix simulation</>;
+  return <>Netflix simulations</>;
 }
 
 export default App;
