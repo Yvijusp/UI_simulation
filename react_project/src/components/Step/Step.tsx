@@ -2,19 +2,20 @@ import { Title01 } from '../../GlobalStyle';
 import { DottedLine, Eclipse, StepBody, StyledStep } from './Step.styled';
 
 interface StepProps {
-  index: number;
+  step: number;
   title: string;
   body: string;
+  lastItem: boolean;
 }
 
-const Step = ({ index, title, body }: StepProps) => {
+const Step = ({ step, title, body, lastItem }: StepProps) => {
   return (
     <StyledStep>
       <Eclipse>
-        <h5>{index < 10 ? '0' + index + 1 : index + 1}</h5>
+        <h5>0{step}</h5>
         <div></div>
       </Eclipse>
-      <DottedLine />
+      {!lastItem && <DottedLine />}
       <StepBody>
         <Title01>{title}</Title01>
         <p>{body}</p>
