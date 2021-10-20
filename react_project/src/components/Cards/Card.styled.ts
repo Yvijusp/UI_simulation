@@ -26,3 +26,27 @@ export const StyledServiceCard = styled.div`
     width: 46px;
   }
 `;
+
+export const StyledTeamCard = styled.div`
+  width: 405px;
+  height: 432px;
+  position: relative;
+`;
+
+export const TeamCardBody = styled.div`
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+  text-align: center;
+  height: 116px;
+  background-color: #161616;
+  color: white;
+  padding: 24px;
+
+  p {
+    margin-top: 4px;
+    font-size: var(--paragraph-sm);
+    opacity: 0.7;
+  }
+`;

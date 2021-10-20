@@ -1,20 +1,23 @@
 import { Title01 } from '../../GlobalStyle';
 import { DottedLine, Eclipse, StepBody, StyledStep } from './Step.styled';
 
-const Step = () => {
+interface StepProps {
+  index: number;
+  title: string;
+  body: string;
+}
+
+const Step = ({ index, title, body }: StepProps) => {
   return (
     <StyledStep>
       <Eclipse>
-        <h5>01</h5>
+        <h5>{index < 10 ? '0' + index + 1 : index + 1}</h5>
         <div></div>
       </Eclipse>
       <DottedLine />
       <StepBody>
-        <Title01>Get a Quote</Title01>
-        <p>
-          Through True Rich Attended does no end it his mother since real had
-          half every.
-        </p>
+        <Title01>{title}</Title01>
+        <p>{body}</p>
       </StepBody>
     </StyledStep>
   );

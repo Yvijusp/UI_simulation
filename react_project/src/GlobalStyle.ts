@@ -61,6 +61,9 @@ h6 {
   --white-color: #FFFFFF;
 }
 
+  img {
+    width: 100%;
+  }
 `;
 
 export const Title01 = styled.h4`
