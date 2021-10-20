@@ -3,7 +3,7 @@ import { Container } from '../../GlobalStyles';
 import { FooterLeft, FooterRight, StyledFooterTop } from './Footer.styled';
 import FooterInfo from './FooterInfo';
 
-const FooterTop = () => {
+const Contacts = () => {
   return (
     <StyledFooterTop>
       <Container>
@@ -40,4 +40,4 @@ const FooterTop = () => {
   );
 };
 
-export default FooterTop;
+export default Contacts;

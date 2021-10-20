@@ -1,5 +1,11 @@
+import Template from '../components/templates/Template';
+
 const Home = () => {
-  return <main>home</main>;
+  return (
+    <Template>
+      <p>Home</p>
+    </Template>
+  );
 };
 
 export default Home;

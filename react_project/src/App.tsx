@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
-      <Header />
+
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/services' component={Services} />
@@ -25,8 +25,6 @@ function App() {
         <Route exact path='/blog' component={Blog} />
         <Route path='/blog/:id' component={BlogPage} />
       </Switch>
-      <FooterTop />
-      <Footer />
     </Router>
   );
 }
