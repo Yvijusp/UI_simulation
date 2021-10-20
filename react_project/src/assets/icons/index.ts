@@ -10,6 +10,7 @@ import { ReactComponent as CarBody } from './carbody.svg';
 import { ReactComponent as Battery } from './Battery.svg';
 import { ReactComponent as Star } from './Star_rating.svg';
 import { ReactComponent as Arrow } from './Arrow.svg';
+import { ReactComponent as Checkmark } from './checkmark.svg';
 
 export {
   DollarLogo,
@@ -24,4 +25,5 @@ export {
   CarBody,
   Battery,
   Arrow,
+  Checkmark,
 };
