@@ -70,6 +70,8 @@ export const Title01 = styled.h4`
 export const Title02 = styled.h4`
   font-size: 24px;
   font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 36px;
 `;
 
 export const Caption = styled.span`
