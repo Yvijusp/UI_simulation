@@ -66,6 +66,8 @@ h6 {
 export const Title01 = styled.h4`
   font-size: 32px;
   font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 48px;
 `;
 export const Title02 = styled.h4`
   font-size: 24px;
