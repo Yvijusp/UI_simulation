@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
+  position: relative;
   font-family: "Manrope", sans-serif;
   background: #B8B8B8;
 }
