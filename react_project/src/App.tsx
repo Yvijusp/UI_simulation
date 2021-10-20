@@ -1,5 +1,5 @@
-function App() {
-  return <>Netflix simulations</>;
-}
+const App = () => {
+  return <div>Ui sim</div>;
+};
 
 export default App;
