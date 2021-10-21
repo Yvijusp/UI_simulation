@@ -198,3 +198,15 @@ export const ExperienceBox = styled.div`
   display: flex;
   justify-content: space-between;
 `;
+
+export const BrandsWrapper = styled.section`
+  padding: 128px 0;
+  h3 {
+    text-align: center;
+    margin-bottom: 95.99px;
+  }
+`;
+
+export const BrandsGrid = styled.div`
+  display: grid;
+`;

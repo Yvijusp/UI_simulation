@@ -4,6 +4,8 @@ import Strip from '../components/Strip/Strip';
 import Template from '../components/templates/Template';
 import { Container, Title02 } from '../GlobalStyle';
 import {
+  BrandsGrid,
+  BrandsWrapper,
   ExperienceBox,
   ExperienceWrapper,
   Header,
@@ -150,6 +152,12 @@ const Home = () => {
           </ExperienceBox>
         </Container>
       </ExperienceWrapper>
+      <BrandsWrapper>
+        <Container>
+          <h3>Brands we Serve</h3>
+          <BrandsGrid></BrandsGrid>
+        </Container>
+      </BrandsWrapper>
     </Template>
   );
 };
