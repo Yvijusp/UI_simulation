@@ -1,7 +1,4 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Footer from './components/Footer/Footer';
-import FooterTop from './components/Footer/FooterTop';
-import Header from './components/Header/Header';
 import { GlobalStyle } from './GlobalStyles';
 import AboutUs from './pages/AboutUs';
 import Blog from './pages/Blog';
