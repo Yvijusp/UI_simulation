@@ -9,7 +9,6 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  position: relative;
   font-family: "Manrope", sans-serif;
   background: #B8B8B8;
 }
@@ -87,10 +86,4 @@ export const Caption = styled.span`
   font-size: var(--caption);
   opacity: 0.7;
   font-weight: 500;
-  line-height: 24px;
-`;
-
-export const Container = styled.div`
-  max-width: 1280px;
-  margin: 0 auto;
 `;

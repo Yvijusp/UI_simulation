@@ -1,6 +1,7 @@
+
 import { Assitance, Line, Logo, Nav, StyledHeader } from './Header.styled';
 import BrandLogo from '../../assets/logo/Logo.png';
-import { Caption, Container } from '../../GlobalStyles';
+import { Caption, Container } from '../../GlobalStyle';
 import { Link } from 'react-router-dom';
 import { ReactComponent as AssitanceLogo } from '../../assets/logo/Assistance.svg';
 
@@ -41,6 +42,7 @@ const Header = () => {
       </Container>
     </StyledHeader>
   );
+
 };
 
 export default Header;

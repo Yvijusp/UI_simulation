@@ -1,5 +1,5 @@
+import { GlobalStyle } from './GlobalStyle';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { GlobalStyle } from './GlobalStyles';
 import AboutUs from './pages/AboutUs';
 import Blog from './pages/Blog';
 import BlogPage from './pages/BlogPage';
