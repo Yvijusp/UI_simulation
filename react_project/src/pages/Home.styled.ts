@@ -188,3 +188,13 @@ export const OfferFooter = styled.div`
     }
   }
 `;
+
+export const ExperienceWrapper = styled.section`
+  background-color: #fafafa;
+  padding: 48px 0;
+`;
+
+export const ExperienceBox = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;

@@ -4,6 +4,8 @@ import Strip from '../components/Strip/Strip';
 import Template from '../components/templates/Template';
 import { Container, Title02 } from '../GlobalStyle';
 import {
+  ExperienceBox,
+  ExperienceWrapper,
   Header,
   HeaderImage,
   HeaderText,
@@ -25,11 +27,12 @@ import {
 } from './Home.styled';
 import Mechanic from '../assets/images/Home/mechanic.png';
 import Feature from '../components/Feature/Feature';
-import { features, offers, steps } from '../templateData';
+import { experiences, features, offers, steps } from '../templateData';
 import TextInput from '../components/Form/TextInput';
 import Step from '../components/Step/Step';
 import ServiceCard from '../components/Cards/ServiceCard';
 import CTA from '../components/CTA/CTA';
+import Experience from '../components/Experience/Experience';
 
 const Home = () => {
   return (
@@ -134,6 +137,19 @@ const Home = () => {
         </Container>
       </OfferWrapper>
       <CTA />
+      <ExperienceWrapper>
+        <Container>
+          <ExperienceBox>
+            {experiences.map((experience) => (
+              <Experience
+                key={experience.title}
+                heading={experience.heading}
+                title={experience.title}
+              />
+            ))}
+          </ExperienceBox>
+        </Container>
+      </ExperienceWrapper>
     </Template>
   );
 };

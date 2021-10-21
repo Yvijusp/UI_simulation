@@ -88,3 +88,22 @@ export const offers = [
     primary: false,
   },
 ];
+
+export const experiences = [
+  {
+    heading: '20+',
+    title: 'Proffesional',
+  },
+  {
+    heading: '10+',
+    title: 'Years Experience',
+  },
+  {
+    heading: '12K+',
+    title: 'Service Closed',
+  },
+  {
+    heading: '100%',
+    title: 'Customer Satisfaction',
+  },
+];
