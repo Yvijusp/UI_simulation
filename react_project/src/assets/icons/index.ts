@@ -16,6 +16,7 @@ import { ReactComponent as TW } from './tw.svg';
 import { ReactComponent as IN } from './insta.svg';
 import { ReactComponent as LI } from './li.svg';
 import { ReactComponent as Clock } from './clock.svg';
+import { ReactComponent as LongArrow } from './LongArrow.svg';
 
 export {
   DollarLogo,
@@ -36,4 +37,5 @@ export {
   IN,
   LI,
   Clock,
+  LongArrow,
 };

@@ -21,6 +21,8 @@ h1 {
 h2 {
   font-size: 58px;
   font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 76px;
 }
 
 h3 {
