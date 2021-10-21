@@ -8,6 +8,11 @@ import {
   HeaderImage,
   HeaderText,
   HeaderWrapper,
+  Offer,
+  OfferFooter,
+  OfferGrid,
+  OfferHeader,
+  OfferWrapper,
   OpenTime,
   Process,
   ProcessLeft,
@@ -20,9 +25,10 @@ import {
 } from './Home.styled';
 import Mechanic from '../assets/images/Home/mechanic.png';
 import Feature from '../components/Feature/Feature';
-import { features, steps } from '../templateData';
+import { features, offers, steps } from '../templateData';
 import TextInput from '../components/Form/TextInput';
 import Step from '../components/Step/Step';
+import ServiceCard from '../components/Cards/ServiceCard';
 
 const Home = () => {
   return (
@@ -102,6 +108,30 @@ const Home = () => {
           </Process>
         </Container>
       </ProcessWrapper>
+      <OfferWrapper>
+        <Container>
+          <Offer>
+            <OfferHeader>
+              <Title02>What we Offer</Title02>
+              <h2>We offer full service auto repair & maintenance</h2>
+            </OfferHeader>
+            <OfferGrid>
+              {offers.map((offer) => (
+                <ServiceCard
+                  primary={offer.primary}
+                  title={offer.title}
+                  icon={<offer.Icon />}
+                />
+              ))}
+            </OfferGrid>
+            <OfferFooter>
+              <p>
+                <a href='#!#'>Learn about services</a> <LongArrow />
+              </p>
+            </OfferFooter>
+          </Offer>
+        </Container>
+      </OfferWrapper>
     </Template>
   );
 };

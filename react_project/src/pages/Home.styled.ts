@@ -153,4 +153,38 @@ export const OfferWrapper = styled.section`
   padding: 128px 0;
 `;
 
-export const Offer = styled.section``;
+export const Offer = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const OfferHeader = styled.div`
+  text-align: center;
+  padding: 0 270px;
+`;
+
+export const OfferGrid = styled.div`
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+`;
+
+export const OfferFooter = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  width: 1288px;
+  margin-top: 32px;
+  p {
+    display: flex;
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: var(--black-color);
+      font-size: var(--paragraph-med);
+      font-weight: 600;
+      margin-right: 16px;
+    }
+  }
+`;

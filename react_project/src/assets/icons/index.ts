@@ -1,5 +1,6 @@
 import { ReactComponent as Engine } from './Engine.svg';
 import { ReactComponent as Insurance } from './Insurance.svg';
+import { ReactComponent as CustomService } from './cservice.svg';
 import { ReactComponent as Oil } from './Oil.svg';
 import { ReactComponent as Wheel } from './Wheel.svg';
 import { ReactComponent as Diagnostics } from './Diagnostics.svg';
@@ -16,6 +17,7 @@ import { ReactComponent as Clock } from './clock.svg';
 import { ReactComponent as LongArrow } from './LongArrow.svg';
 
 export {
+  CustomService,
   Star,
   Engine,
   Insurance,

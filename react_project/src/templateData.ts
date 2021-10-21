@@ -1,6 +1,16 @@
 import ServiceLogo from './assets/icons/service.png';
 import ExpertLogo from './assets/icons/expert.png';
 import DollarLogo from './assets/icons/dollar.png';
+import {
+  Battery,
+  CarBody,
+  CustomService,
+  Diagnostics,
+  Engine,
+  Insurance,
+  Oil,
+  Wheel,
+} from './assets/icons';
 
 export const features = [
   {
@@ -32,5 +42,49 @@ export const steps = [
   {
     title: 'Get your Service Done',
     body: 'Through True Rich Attended does no end it his mother since real had half every',
+  },
+];
+
+export const offers = [
+  {
+    Icon: Diagnostics,
+    title: 'Diagnostics',
+    primary: false,
+  },
+  {
+    Icon: Engine,
+    title: 'Engine Repair',
+
+    primary: false,
+  },
+  {
+    Icon: Wheel,
+    title: 'Wheel Repair',
+    primary: true,
+  },
+  {
+    Icon: Oil,
+    title: 'Oil Filter',
+    primary: false,
+  },
+  {
+    Icon: CarBody,
+    title: 'Body Work',
+    primary: false,
+  },
+  {
+    Icon: Battery,
+    title: 'Batteries',
+    primary: false,
+  },
+  {
+    Icon: Insurance,
+    title: 'Insurance Claim',
+    primary: false,
+  },
+  {
+    Icon: CustomService,
+    title: 'Custom Service',
+    primary: false,
   },
 ];
