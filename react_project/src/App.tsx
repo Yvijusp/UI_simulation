@@ -1,8 +1,8 @@
+import { GlobalStyle } from './GlobalStyle';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import FooterTop from './components/Footer/FooterTop';
 import Header from './components/Header/Header';
-import { GlobalStyle } from './GlobalStyles';
 import AboutUs from './pages/AboutUs';
 import Blog from './pages/Blog';
 import BlogPage from './pages/BlogPage';
@@ -11,11 +11,12 @@ import Home from './pages/Home';
 import ServicePage from './pages/ServicePage';
 import Services from './pages/Services';
 
+
 function App() {
   return (
     <Router>
       <GlobalStyle />
-      <Header />
+
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/services' component={Services} />
@@ -25,8 +26,7 @@ function App() {
         <Route exact path='/blog' component={Blog} />
         <Route path='/blog/:id' component={BlogPage} />
       </Switch>
-      <FooterTop />
-      <Footer />
+
     </Router>
   );
 }
