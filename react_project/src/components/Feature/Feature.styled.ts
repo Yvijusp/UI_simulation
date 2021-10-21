@@ -15,7 +15,7 @@ export const Logo = styled.div`
   margin-right: 16px;
   background: #ffffff;
 
-  svg {
+  img {
     height: 28px;
     width: 28px;
   }

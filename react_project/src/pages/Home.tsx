@@ -56,16 +56,12 @@ const Home = () => {
           <Quote>
             <QuoteLeft>
               <h2>We are taking car servicing seriously</h2>
-              {features.map(({ body, title, Icon }, index) => (
-                <Feature
-                  key={index}
-                  body={body}
-                  title={title}
-                  icon={<Icon />}
-                />
+              {features.map(({ body, title, image }) => (
+                <Feature key={title} body={body} title={title} image={image} />
               ))}
+
               <span>
-                <a href='!#'>Know more about us</a> <LongArrow />
+                <a href='#!#'>Know more about us</a> <LongArrow />
               </span>
             </QuoteLeft>
             <QuoteRight>
@@ -95,7 +91,7 @@ const Home = () => {
             <ProcessRight>
               {steps.map((step, index) => (
                 <Step
-                  key='index'
+                  key={index}
                   step={index + 1}
                   title={step.title}
                   body={step.body}

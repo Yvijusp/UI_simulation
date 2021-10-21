@@ -2,15 +2,17 @@ import React from 'react';
 import { Body, Logo, StyledFeature } from './Feature.styled';
 
 interface FeatureProps {
-  icon: React.ReactNode;
+  image: string;
   title: string;
   body: string;
 }
 
-const Feature = ({ icon, title, body }: FeatureProps) => {
+const Feature = ({ image, title, body }: FeatureProps) => {
   return (
     <StyledFeature>
-      <Logo>{icon}</Logo>
+      <Logo>
+        <img src={image} alt={title} />
+      </Logo>
       <Body>
         <h4>{title}</h4>
         <p>{body}</p>

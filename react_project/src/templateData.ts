@@ -1,18 +1,20 @@
-import { DollarLogo, ExpertLogo, ServiceLogo } from './assets/icons';
+import ServiceLogo from './assets/icons/service.png';
+import ExpertLogo from './assets/icons/expert.png';
+import DollarLogo from './assets/icons/dollar.png';
 
 export const features = [
   {
-    Icon: ServiceLogo,
+    image: ServiceLogo,
     title: 'Conveniet service',
     body: 'Through True Rich Attended does no end it his mother since real had half every him.',
   },
   {
-    Icon: ExpertLogo,
+    image: ExpertLogo,
     title: 'Expert mechanics',
     body: 'Through True Rich Attended does no end it his mother since real had half every him.',
   },
   {
-    Icon: DollarLogo,
+    image: DollarLogo,
     title: 'Transparent pricing',
     body: 'Through True Rich Attended does no end it his mother since real had half every him.',
   },

@@ -147,3 +147,10 @@ export const ProcessLeft = styled.div`
 export const ProcessRight = styled.div`
   width: 50%;
 `;
+
+export const OfferWrapper = styled.section`
+  background-color: #f2f2f2;
+  padding: 128px 0;
+`;
+
+export const Offer = styled.section``;
