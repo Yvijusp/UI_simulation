@@ -120,3 +120,30 @@ export const QuoteRight = styled.div`
     margin-bottom: 48px;
   }
 `;
+
+export const ProcessWrapper = styled.section`
+  padding: 128px 0;
+`;
+
+export const Process = styled.section`
+  display: flex;
+`;
+
+export const ProcessLeft = styled.div`
+  width: 50%;
+  padding-right: 131px;
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  p {
+    opacity: 0.6;
+    margin-bottom: 48px;
+    max-width: 437px;
+  }
+`;
+
+export const ProcessRight = styled.div`
+  width: 50%;
+`;

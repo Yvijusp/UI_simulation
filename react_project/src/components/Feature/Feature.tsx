@@ -2,7 +2,7 @@ import React from 'react';
 import { Body, Logo, StyledFeature } from './Feature.styled';
 
 interface FeatureProps {
-  icon: React.ReactElement;
+  icon: React.ReactNode;
   title: string;
   body: string;
 }

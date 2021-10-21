@@ -9,6 +9,10 @@ import {
   HeaderText,
   HeaderWrapper,
   OpenTime,
+  Process,
+  ProcessLeft,
+  ProcessRight,
+  ProcessWrapper,
   Quote,
   QuoteLeft,
   QuoteRight,
@@ -16,8 +20,9 @@ import {
 } from './Home.styled';
 import Mechanic from '../assets/images/Home/mechanic.png';
 import Feature from '../components/Feature/Feature';
-import { features } from '../templateData';
+import { features, steps } from '../templateData';
 import TextInput from '../components/Form/TextInput';
+import Step from '../components/Step/Step';
 
 const Home = () => {
   return (
@@ -76,6 +81,31 @@ const Home = () => {
           </Quote>
         </Container>
       </QuoteWrapper>
+      <ProcessWrapper>
+        <Container>
+          <Process>
+            <ProcessLeft>
+              <h2>We Follow a clear process to help you out.</h2>
+              <p>
+                Through True Rich Attended does no end it his mother since real
+                had half every him case in packages enquire
+              </p>
+              <Button text='Learn More' primary />
+            </ProcessLeft>
+            <ProcessRight>
+              {steps.map((step, index) => (
+                <Step
+                  key='index'
+                  step={index + 1}
+                  title={step.title}
+                  body={step.body}
+                  lastItem={index + 1 === steps.length}
+                />
+              ))}
+            </ProcessRight>
+          </Process>
+        </Container>
+      </ProcessWrapper>
     </Template>
   );
 };
