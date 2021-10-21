@@ -29,6 +29,7 @@ import { features, offers, steps } from '../templateData';
 import TextInput from '../components/Form/TextInput';
 import Step from '../components/Step/Step';
 import ServiceCard from '../components/Cards/ServiceCard';
+import CTA from '../components/CTA/CTA';
 
 const Home = () => {
   return (
@@ -132,6 +133,7 @@ const Home = () => {
           </Offer>
         </Container>
       </OfferWrapper>
+      <CTA />
     </Template>
   );
 };
