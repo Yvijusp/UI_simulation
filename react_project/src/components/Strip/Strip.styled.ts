@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const StyledStrip = styled.div`
   border-radius: 59px;
-  border: 12px solid #e1e1e16e;
+  border: 12px solid rgba(225, 225, 225, 0.43);
   background: linear-gradient(138.85deg, #ffffff -38.72%, #ffffff 153.95%);
+
   min-height: 102px;
   padding: 14px;
 

@@ -1,5 +1,5 @@
 import { FB, IN, LI, TW } from '../../assets/icons';
-import { Container } from '../../GlobalStyles';
+import { Container } from '../../GlobalStyle';
 import { FooterLeft, FooterRight, StyledFooterTop } from './Footer.styled';
 import FooterInfo from './FooterInfo';
 

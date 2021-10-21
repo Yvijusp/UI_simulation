@@ -1,4 +1,4 @@
-import { Title02 } from '../../GlobalStyles';
+import { Title02 } from '../../GlobalStyle';
 import { StyledFooterInfo } from './Footer.styled';
 
 interface FooterInfoProps {
