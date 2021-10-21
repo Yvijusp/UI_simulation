@@ -1,3 +1,4 @@
+
 import { ReactComponent as DollarLogo } from './dollar.svg';
 import { ReactComponent as ServiceLogo } from './Service.svg';
 import { ReactComponent as ExpertLogo } from './Expert.svg';
@@ -11,6 +12,10 @@ import { ReactComponent as Battery } from './Battery.svg';
 import { ReactComponent as Star } from './Star_rating.svg';
 import { ReactComponent as Arrow } from './Arrow.svg';
 import { ReactComponent as Checkmark } from './checkmark.svg';
+import { ReactComponent as FB } from './fb.svg';
+import { ReactComponent as TW } from './tw.svg';
+import { ReactComponent as IN } from './insta.svg';
+import { ReactComponent as LI } from './li.svg';
 
 export {
   DollarLogo,
@@ -26,4 +31,8 @@ export {
   Battery,
   Arrow,
   Checkmark,
+  FB, TW, IN, LI
 };
+
+
+
