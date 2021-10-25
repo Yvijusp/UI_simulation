@@ -13,6 +13,9 @@ import {
   StepsLeft,
   StepsRight,
   StepsWrapper,
+  Team,
+  TeamMembers,
+  TeamWrapper,
 } from './AboutUs.styled';
 import Mechanic from '../assets/images/AboutUS/mechanic.png';
 import Button from '../components/Buttons/Button';
@@ -23,12 +26,15 @@ import {
   features,
   overlayCardContent,
   steps,
+  team,
 } from '../templateData';
 import Step from '../components/Step/Step';
 import OverlayCard from '../components/Cards/OverlayCards';
 import Feature from '../components/Feature/Feature';
 import FeatureCard from '../components/Cards/FeatureCard';
 import Experience from '../components/Experience/Experience';
+import TeamCard from '../components/Cards/TeamCard';
+import CTA from '../components/CTA/CTA';
 
 const AboutUs = () => {
   return (
@@ -115,6 +121,24 @@ const AboutUs = () => {
           </FeaturesExperience>
         </Container>
       </FeaturesWrapper>
+      <TeamWrapper>
+        <Container>
+          <Team>
+            <h1>Meet our Team</h1>
+            <TeamMembers>
+              {team.map((member, index) => (
+                <TeamCard
+                  image={member.image}
+                  key={index}
+                  name={member.name}
+                  position={member.position}
+                />
+              ))}
+            </TeamMembers>
+          </Team>
+        </Container>
+      </TeamWrapper>
+      <CTA />
     </Template>
   );
 };

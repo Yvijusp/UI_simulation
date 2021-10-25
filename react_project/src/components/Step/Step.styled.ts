@@ -26,7 +26,7 @@ export const Eclipse = styled.div`
 `;
 
 export const StyledStep = styled.div`
-  width: 432px;
+  max-width: 450px;
   height: 165px;
   position: relative;
 

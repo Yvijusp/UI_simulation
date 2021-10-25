@@ -17,6 +17,7 @@ import Smith from './assets/images/Avatars/Smith.png';
 import { OverlayCardProps } from './components/Cards/OverlayCards';
 import CarBack from './assets/images/carbackcard.png';
 import CarEngine from './assets/images/carbatterycard.png';
+import { Devon, Jalen, Javena, Kylee, Luisa, Paul } from './assets/images';
 
 export const features = [
   {
@@ -43,11 +44,11 @@ export const steps = [
   },
   {
     title: 'Book an Appointment',
-    body: 'Through True Rich Attended does no end it his mother since real had half every',
+    body: 'Through True Rich Attended does no end it his mother since real',
   },
   {
     title: 'Get your Service Done',
-    body: 'Through True Rich Attended does no end it his mother since real had half every',
+    body: 'Ecstatic unsatiable saw his giving Remain expense you position concluded.',
   },
 ];
 
@@ -244,5 +245,38 @@ export const overlayCardContent: OverlayCardProps[] = [
     image: CarEngine,
     body: 'We provide a full range of front end mechanical repairs for all makes and models of cars, no matter the cause. This includes ',
     color: 'secondary',
+  },
+];
+
+export const team = [
+  {
+    image: Javena,
+    name: 'Javena Melo',
+    position: 'Founder, Director',
+  },
+  {
+    image: Paul,
+    name: 'Paul Honson',
+    position: 'Head Technician',
+  },
+  {
+    image: Devon,
+    name: 'Devon Lane',
+    position: 'Technician',
+  },
+  {
+    image: Jalen,
+    name: 'Jalen Davies',
+    position: 'Marketing Manager',
+  },
+  {
+    image: Kylee,
+    name: 'Kylee Danford',
+    position: 'Sales Manager',
+  },
+  {
+    image: Luisa,
+    name: 'Luisa Wilson',
+    position: 'Support Assistant',
   },
 ];

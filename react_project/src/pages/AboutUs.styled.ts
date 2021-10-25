@@ -108,3 +108,20 @@ export const FeaturesExperience = styled.div`
   display: flex;
   justify-content: space-between;
 `;
+
+export const TeamWrapper = styled.section`
+  ${wrapper.default}
+`;
+
+export const Team = styled.section`
+  h1 {
+    text-align: center;
+    margin-bottom: 66px;
+  }
+`;
+
+export const TeamMembers = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+`;
