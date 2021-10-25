@@ -1,6 +1,10 @@
 import Template from '../components/templates/Template';
 import {
   ColorsWrapper,
+  Features,
+  FeaturesContainer,
+  FeaturesExperience,
+  FeaturesWrapper,
   Header,
   HeaderLeft,
   HeaderRight,
@@ -14,9 +18,17 @@ import Mechanic from '../assets/images/AboutUS/mechanic.png';
 import Button from '../components/Buttons/Button';
 import { Container, Title02 } from '../GlobalStyle';
 import CarFix from '../assets/images/AboutUS/carback.png';
-import { overlayCardContent, steps } from '../templateData';
+import {
+  experiences,
+  features,
+  overlayCardContent,
+  steps,
+} from '../templateData';
 import Step from '../components/Step/Step';
 import OverlayCard from '../components/Cards/OverlayCards';
+import Feature from '../components/Feature/Feature';
+import FeatureCard from '../components/Cards/FeatureCard';
+import Experience from '../components/Experience/Experience';
 
 const AboutUs = () => {
   return (
@@ -77,6 +89,32 @@ const AboutUs = () => {
           />
         ))}
       </ColorsWrapper>
+      <FeaturesWrapper>
+        <Container>
+          <Features>
+            <h2>Services we provide to our valued customers</h2>
+            <FeaturesContainer>
+              {features.map((feature, index) => (
+                <FeatureCard
+                  key={index}
+                  image={feature.image}
+                  body={feature.body}
+                  title={feature.title}
+                />
+              ))}
+            </FeaturesContainer>
+          </Features>
+          <FeaturesExperience>
+            {experiences.map((experience, index) => (
+              <Experience
+                key={index}
+                heading={experience.heading}
+                title={experience.title}
+              />
+            ))}
+          </FeaturesExperience>
+        </Container>
+      </FeaturesWrapper>
     </Template>
   );
 };

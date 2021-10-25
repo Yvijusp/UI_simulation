@@ -81,3 +81,30 @@ export const StepsRight = styled.div`
 export const ColorsWrapper = styled.section`
   display: flex;
 `;
+
+export const FeaturesWrapper = styled.section`
+  ${wrapper.default}
+
+  background: #F8F8F8;
+`;
+
+export const Features = styled.section`
+  h2 {
+    text-align: center;
+    width: 861px;
+    margin: 0 auto 64px auto;
+  }
+`;
+
+export const FeaturesContainer = styled.div`
+  display: flex;
+  gap: 2px;
+  margin-bottom: 64px;
+  border: 1px solid #ebebeb;
+  box-shadow: 11px 130px 100px 30px rgba(0, 0, 0, 0.02);
+`;
+
+export const FeaturesExperience = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
