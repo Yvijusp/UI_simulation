@@ -16,6 +16,8 @@ body {
 h1 {
   font-size: 64px;
   font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 84px;
 }
 
 h2 {
@@ -28,14 +30,15 @@ h2 {
 h3 {
   font-size: 48px;
   font-weight: 700;
+  letter-spacing: -0.03em;
+
 }
 
 h4 {
   font-size: 40px;
   font-weight: 700;
   line-height: 140%;
-/* or 56px */
-letter-spacing: -0.03em;
+  letter-spacing: -0.03em;
 }
 
 
@@ -90,7 +93,7 @@ export const Caption = styled.span`
   font-weight: 500;
 `;
 
-export const Container = styled.div`
-  max-width: 1380px;
+export const Container = styled.section`
+  max-width: 1280px;
   margin: 0 auto;
 `;

@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { Title01 } from '../../GlobalStyle';
+import { Logo } from '../Feature/Feature.styled';
 
 interface Props {
   primary?: boolean;
@@ -87,10 +89,43 @@ export const Overlay = styled.div`
       ? 'rgba(0, 0, 0, 0.9)'
       : 'transparent'};
 
-  padding: 142px 101px;
+  padding: 139px 99px;
   top: 0;
   z-index: 1;
   width: 100%;
   height: 100%;
   position: absolute;
+`;
+
+export const StyledFeatureCard = styled.div`
+  height: 424px;
+  width: 427px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 104px 66px 88px 66px;
+  background-color: var(--white-color);
+
+  ${Title01} {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: var(--paragraph-med);
+    font-weight: 600;
+    line-height: 175%;
+    color: #232536;
+
+    opacity: 0.6;
+  }
+
+  ${Logo} {
+    background-color: #ffdace;
+    margin-bottom: 24px;
+    width: 64px;
+    height: 64px;
+  }
 `;

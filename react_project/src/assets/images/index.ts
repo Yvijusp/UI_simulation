@@ -5,6 +5,4 @@ import Kylee from './team_members/Kylee.png';
 import Luisa from './team_members/Luisa.png';
 import Paul from './team_members/Paul.png';
 
-const teamMembers = [Devon, Jalen, Javena, Kylee, Luisa, Paul];
-
-export { teamMembers };
+export { Javena, Devon, Jalen, Kylee, Luisa, Paul };
