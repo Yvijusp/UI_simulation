@@ -92,7 +92,7 @@ export const Caption = styled.span`
   font-weight: 500;
 `;
 
-export const Container = styled.div`
-  max-width: 1380px;
+export const Container = styled.section`
+  max-width: 1280px;
   margin: 0 auto;
 `;

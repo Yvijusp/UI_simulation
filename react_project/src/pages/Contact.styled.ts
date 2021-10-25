@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { StyledFooterInfo } from '../components/Footer/Footer.styled';
 import { StyledTextInput } from '../components/Form/Form.styled';
+import ContactsImage from '../assets/images/Contacts/contactfooter.png';
 
 export const ContactsWrapper = styled.section`
   padding: 80px 0 128px 0;
@@ -35,4 +36,29 @@ export const ContactsRight = styled.div`
   ${StyledFooterInfo} {
     white-space: pre;
   }
+`;
+
+export const ContactsFooter = styled.section``;
+
+export const ContactsMap = styled.div`
+  position: relative;
+  height: 344px;
+
+  iframe {
+    width: 1280px;
+    height: 512px;
+    position: absolute;
+    top: 0;
+    left: 322px;
+
+    border: 1px solid var(--greysteel-color);
+  }
+`;
+
+export const ContactsFooterImage = styled.div`
+  background: url(${ContactsImage});
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 448px;
 `;
