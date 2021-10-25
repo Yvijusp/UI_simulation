@@ -1,9 +1,6 @@
-
-import { ReactComponent as DollarLogo } from './dollar.svg';
-import { ReactComponent as ServiceLogo } from './Service.svg';
-import { ReactComponent as ExpertLogo } from './Expert.svg';
 import { ReactComponent as Engine } from './Engine.svg';
 import { ReactComponent as Insurance } from './Insurance.svg';
+import { ReactComponent as CustomService } from './cservice.svg';
 import { ReactComponent as Oil } from './Oil.svg';
 import { ReactComponent as Wheel } from './Wheel.svg';
 import { ReactComponent as Diagnostics } from './Diagnostics.svg';
@@ -16,11 +13,11 @@ import { ReactComponent as FB } from './fb.svg';
 import { ReactComponent as TW } from './tw.svg';
 import { ReactComponent as IN } from './insta.svg';
 import { ReactComponent as LI } from './li.svg';
+import { ReactComponent as Clock } from './clock.svg';
+import { ReactComponent as LongArrow } from './LongArrow.svg';
 
 export {
-  DollarLogo,
-  ServiceLogo,
-  ExpertLogo,
+  CustomService,
   Star,
   Engine,
   Insurance,
@@ -31,8 +28,10 @@ export {
   Battery,
   Arrow,
   Checkmark,
-  FB, TW, IN, LI
+  FB,
+  TW,
+  IN,
+  LI,
+  Clock,
+  LongArrow,
 };
-
-
-

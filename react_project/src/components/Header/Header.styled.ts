@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Container } from '../../GlobalStyles';
+import { Container } from '../../GlobalStyle';
 
 export const StyledHeader = styled.header`
   background-color: var(--white-color);

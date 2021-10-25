@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Copyright, Logo, Nav, StyledFooter } from './Footer.styled';
 import BrandLogo from '../../assets/logo/Logofooter.png';
-import { Container } from '../../GlobalStyles';
+import { Container } from '../../GlobalStyle';
 
 const Footer = () => {
   return (

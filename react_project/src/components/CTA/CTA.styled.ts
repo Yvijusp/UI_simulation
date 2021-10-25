@@ -5,6 +5,9 @@ export const StyledCTA = styled.section`
   max-height: 502px;
 
   display: flex;
+  img {
+    min-height: 100%;
+  }
 `;
 
 export const CTACard = styled.div`

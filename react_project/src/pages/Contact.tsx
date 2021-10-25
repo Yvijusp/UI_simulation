@@ -1,5 +1,11 @@
+import Template from '../components/templates/Template';
+
 const Contact = () => {
-  return <main>Contact</main>;
+  return (
+    <Template noContacts={true}>
+      <p>Hello</p>
+    </Template>
+  );
 };
 
 export default Contact;

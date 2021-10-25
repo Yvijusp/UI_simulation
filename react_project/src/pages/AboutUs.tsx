@@ -1,5 +1,11 @@
+import Template from '../components/templates/Template';
+
 const AboutUs = () => {
-  return <main>asd</main>;
+  return (
+    <Template>
+      <p>About</p>
+    </Template>
+  );
 };
 
 export default AboutUs;

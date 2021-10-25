@@ -12,6 +12,10 @@ export const StyledTestimonial = styled.div`
 
   height: 376px;
   width: 616px;
+
+  img {
+    width: 64px;
+  }
 `;
 
 export const Customer = styled.div`
@@ -28,9 +32,9 @@ export const Customer = styled.div`
 
 export const Line = styled.div`
   width: 32px;
-  border: 4px solid #939191;
+  border: 2px solid #939191;
 
   &.active {
-    border: 4px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
   }
 `;

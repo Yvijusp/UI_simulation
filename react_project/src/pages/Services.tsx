@@ -1,5 +1,11 @@
+import Template from '../components/templates/Template';
+
 const Services = () => {
-  return <main>services</main>;
+  return (
+    <Template>
+      <p>Sercices</p>
+    </Template>
+  );
 };
 
 export default Services;
