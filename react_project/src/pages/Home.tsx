@@ -26,15 +26,25 @@ import {
   QuoteLeft,
   QuoteRight,
   QuoteWrapper,
+  TestimonialsWrapper,
 } from './Home.styled';
 import Mechanic from '../assets/images/Home/mechanic.png';
 import Feature from '../components/Feature/Feature';
-import { experiences, features, offers, steps } from '../templateData';
+import {
+  brands,
+  experiences,
+  features,
+  offers,
+  steps,
+  testimonials,
+} from '../templateData';
 import TextInput from '../components/Form/TextInput';
 import Step from '../components/Step/Step';
 import ServiceCard from '../components/Cards/ServiceCard';
 import CTA from '../components/CTA/CTA';
 import Experience from '../components/Experience/Experience';
+import Brand from '../assets/icons/Brands/Brand';
+import PaginatedTestimonials from '../components/Pagination/PaginatedTestimonials';
 
 const Home = () => {
   return (
@@ -122,11 +132,12 @@ const Home = () => {
               <h2>We offer full service auto repair & maintenance</h2>
             </OfferHeader>
             <OfferGrid>
-              {offers.map((offer) => (
+              {offers.map((offer, index) => (
                 <ServiceCard
                   primary={offer.primary}
                   title={offer.title}
                   icon={<offer.Icon />}
+                  key={index}
                 />
               ))}
             </OfferGrid>
@@ -155,9 +166,19 @@ const Home = () => {
       <BrandsWrapper>
         <Container>
           <h3>Brands we Serve</h3>
-          <BrandsGrid></BrandsGrid>
+          <BrandsGrid>
+            {brands.map((brand, index) => (
+              <Brand key={index} name={brand.name} />
+            ))}
+          </BrandsGrid>
         </Container>
       </BrandsWrapper>
+      <TestimonialsWrapper>
+        <Container>
+          <h3>Our customer say the nicest things about our service</h3>
+          <PaginatedTestimonials data={testimonials} />
+        </Container>
+      </TestimonialsWrapper>
     </Template>
   );
 };

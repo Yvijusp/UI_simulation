@@ -12,6 +12,9 @@ import {
   Wheel,
 } from './assets/icons';
 
+import Jonathan from './assets/images/Avatars/Jonathan.png';
+import Smith from './assets/images/Avatars/Smith.png';
+
 export const features = [
   {
     image: ServiceLogo,
@@ -105,5 +108,89 @@ export const experiences = [
   {
     heading: '100%',
     title: 'Customer Satisfaction',
+  },
+];
+
+export const brands = [
+  {
+    name: 'brand1',
+  },
+  {
+    name: 'brand2',
+  },
+  {
+    name: 'brand3',
+  },
+  {
+    name: 'brand4',
+  },
+  {
+    name: 'brand5',
+  },
+  {
+    name: 'brand1',
+  },
+  {
+    name: 'brand2',
+  },
+  {
+    name: 'brand3',
+  },
+  {
+    name: 'brand4',
+  },
+  {
+    name: 'brand5',
+  },
+];
+
+export const testimonials = [
+  {
+    avatar: Jonathan,
+    name: 'Jonathan Vallem',
+    city: 'New York',
+    body: 'I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working',
+  },
+  {
+    avatar: Smith,
+    name: 'Smith Johnson',
+    city: 'New York',
+    body: 'I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working',
+  },
+  {
+    avatar: Smith,
+    name: 'Smith Johson',
+    city: 'New York',
+    body: 'I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working',
+  },
+  {
+    avatar: Smith,
+    name: 'Smith Johnson',
+    city: 'New York',
+    body: 'I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working',
+  },
+  {
+    avatar: Jonathan,
+    name: 'John Smith',
+    city: 'Chicago',
+    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus eget urna vitae rhoncus. Sed quis mauris dapibus, bibendum lorem. ',
+  },
+  {
+    avatar: Smith,
+    name: 'Alex Mercer',
+    city: 'London',
+    body: 'Phasellus eu interdum neque. Nulla vitae placerat dolor. Ut in volutpat orci. Aliquam ac dui quam. Vivamus libero felis, maximus.',
+  },
+  {
+    avatar: Jonathan,
+    name: 'Jonathan Vallem',
+    city: 'New York',
+    body: 'I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working',
+  },
+  {
+    avatar: Smith,
+    name: 'Smith Johnson',
+    city: 'New York',
+    body: 'I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working',
   },
 ];

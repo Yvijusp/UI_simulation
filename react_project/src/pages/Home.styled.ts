@@ -203,10 +203,22 @@ export const BrandsWrapper = styled.section`
   padding: 128px 0;
   h3 {
     text-align: center;
-    margin-bottom: 95.99px;
+    margin-bottom: 41.21px;
   }
 `;
 
 export const BrandsGrid = styled.div`
   display: grid;
+  grid-template-columns: repeat(5, 1fr);
+`;
+
+export const TestimonialsWrapper = styled.section`
+  padding: 128px 0;
+  background: #f2f2f2;
+
+  h3 {
+    text-align: center;
+    width: 909px;
+    margin: 0 auto 94px auto;
+  }
 `;

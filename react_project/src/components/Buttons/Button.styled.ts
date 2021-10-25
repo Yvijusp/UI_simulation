@@ -33,6 +33,13 @@ export const StyledArrowButtons = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+
+  transition: ease-in 200ms transform;
+
+  :hover {
+    transform: scale(1.1);
+  }
 
   ${({ right }: ArrowButtonProps) =>
     right &&
@@ -56,6 +63,7 @@ export const StyledArrowButtons = styled.button`
     `
   width: 48px;
   height: 48px;
+  background-color: var(--white-color);
 
   svg {
     width: 20px;
