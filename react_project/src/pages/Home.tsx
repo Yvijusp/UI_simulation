@@ -8,6 +8,8 @@ import {
   BrandsWrapper,
   ExperienceBox,
   ExperienceWrapper,
+  FAQs,
+  FAQWrapper,
   Header,
   HeaderImage,
   HeaderText,
@@ -33,6 +35,7 @@ import Feature from '../components/Feature/Feature';
 import {
   brands,
   experiences,
+  faqs,
   features,
   offers,
   steps,
@@ -45,6 +48,7 @@ import CTA from '../components/CTA/CTA';
 import Experience from '../components/Experience/Experience';
 import Brand from '../assets/icons/Brands/Brand';
 import PaginatedTestimonials from '../components/Pagination/PaginatedTestimonials';
+import FAQ from '../components/FAQ/FAQ';
 
 const Home = () => {
   return (
@@ -179,6 +183,16 @@ const Home = () => {
           <PaginatedTestimonials data={testimonials} />
         </Container>
       </TestimonialsWrapper>
+      <FAQWrapper>
+        <Container>
+          <h3>Frequently Asked Questions</h3>
+          <FAQs>
+            {faqs.map((faq, index) => (
+              <FAQ question={faq.question} answer={faq.answer} key={index} />
+            ))}
+          </FAQs>
+        </Container>
+      </FAQWrapper>
     </Template>
   );
 };

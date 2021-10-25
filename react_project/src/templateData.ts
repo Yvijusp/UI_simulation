@@ -194,3 +194,31 @@ export const testimonials = [
     body: 'I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car in a short comprehensive look on all the working',
   },
 ];
+
+export const faqs = [
+  {
+    question: 'How long should a car repair take?',
+    answer:
+      'I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did they repair my car I have got my car repaired at Finsweet I have got my car repaired at Finsweet',
+  },
+  {
+    question: "How do I schedule my car's appointment ?",
+    answer:
+      'Quisque luctus, magna in finibus egestas, nunc purus sollicitudin orci, vitae commodo enim ante ut dui. Suspendisse orci erat, sagittis non odio non, tincidunt finibus.',
+  },
+  {
+    question: 'What are the repair services provided?',
+    answer:
+      'Praesent convallis, eros ac varius cursus, lacus lorem bibendum elit, non blandit mi velit in quam. Quisque auctor pharetra faucibus. Duis porta consequat turpis eu sodales. Orci varius natoque penatibus et magnis dis.',
+  },
+  {
+    question: 'How do I find auto body shops near me?',
+    answer:
+      'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.',
+  },
+  {
+    question: 'Genuine spare parts during car repair?',
+    answer:
+      'Vestibulum tempor arcu ante, non auctor sapien laoreet eu. Integer ornare tortor ac leo aliquet viverra. Ut eu justo luctus, placerat urna ut, dictum libero. Donec et mauris sollicitudin, aliquet mi vitae, consectetur neque. Donec mi dui, dictum in scelerisque sed, posuere nec nunc. Vivamus commodo, est vel finibus porttitor, nisl.',
+  },
+];

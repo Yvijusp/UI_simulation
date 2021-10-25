@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import { StyledStrip } from '../components/Strip/Strip.styled';
 
-export const HeaderWrapper = styled.section``;
+export const HeaderWrapper = styled.section`
+  padding: 80px 0 128px 0;
+`;
 
 export const Header = styled.section`
   display: flex;
-
-  padding: 80px 0 128px 0;
 `;
 
 export const HeaderText = styled.div`
@@ -69,11 +69,11 @@ export const HeaderImage = styled.div`
 
 export const QuoteWrapper = styled.section`
   background-color: var(--steelgrey-color);
+  padding: 128px 0;
 `;
 
 export const Quote = styled.section`
   display: flex;
-  padding: 128px 0;
 `;
 
 export const QuoteLeft = styled.div`
@@ -221,4 +221,21 @@ export const TestimonialsWrapper = styled.section`
     width: 909px;
     margin: 0 auto 94px auto;
   }
+`;
+
+export const FAQWrapper = styled.section`
+  padding: 128px 0;
+  background-color: var(--steelgrey-color);
+
+  h3 {
+    margin-bottom: 95px;
+    text-align: center;
+  }
+`;
+
+export const FAQs = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 `;
