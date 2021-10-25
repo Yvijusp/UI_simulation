@@ -1,10 +1,10 @@
 import { Title02 } from '../../GlobalStyle';
 import { StyledOverlayCard, Overlay } from './Card.styled';
-import CarBack from '../../assets/images/carbackcard.png';
 
-interface OverlayCardProps {
+export interface OverlayCardProps {
   title: string;
   body: string;
+  image: string;
   color?: 'primary' | 'secondary' | 'dark';
 }
 
@@ -12,9 +12,9 @@ const defaultProps = {
   color: 'rgba(248, 91, 41, 0.9)',
 };
 
-const OverlayCard = ({ title, body, color }: OverlayCardProps) => {
+const OverlayCard = ({ image, title, body, color }: OverlayCardProps) => {
   return (
-    <StyledOverlayCard image={CarBack}>
+    <StyledOverlayCard image={image}>
       <Overlay color={color}>
         <h4>{title}</h4>
         <Title02>{body}</Title02>

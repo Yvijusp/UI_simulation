@@ -77,3 +77,7 @@ export const StepsRight = styled.div`
     width: 573px;
   }
 `;
+
+export const ColorsWrapper = styled.section`
+  display: flex;
+`;

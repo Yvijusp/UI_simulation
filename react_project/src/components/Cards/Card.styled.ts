@@ -87,7 +87,7 @@ export const Overlay = styled.div`
       ? 'rgba(0, 0, 0, 0.9)'
       : 'transparent'};
 
-  padding: 142px 101px;
+  padding: 139px 99px;
   top: 0;
   z-index: 1;
   width: 100%;

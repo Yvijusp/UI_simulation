@@ -1,5 +1,6 @@
 import Template from '../components/templates/Template';
 import {
+  ColorsWrapper,
   Header,
   HeaderLeft,
   HeaderRight,
@@ -13,8 +14,9 @@ import Mechanic from '../assets/images/AboutUS/mechanic.png';
 import Button from '../components/Buttons/Button';
 import { Container, Title02 } from '../GlobalStyle';
 import CarFix from '../assets/images/AboutUS/carback.png';
-import { steps } from '../templateData';
+import { overlayCardContent, steps } from '../templateData';
 import Step from '../components/Step/Step';
+import OverlayCard from '../components/Cards/OverlayCards';
 
 const AboutUs = () => {
   return (
@@ -64,6 +66,17 @@ const AboutUs = () => {
           </Steps>
         </Container>
       </StepsWrapper>
+      <ColorsWrapper>
+        {overlayCardContent.map((value, index) => (
+          <OverlayCard
+            body={value.body}
+            title={value.title}
+            image={value.image}
+            color={value.color}
+            key={index}
+          />
+        ))}
+      </ColorsWrapper>
     </Template>
   );
 };

@@ -14,6 +14,9 @@ import {
 
 import Jonathan from './assets/images/Avatars/Jonathan.png';
 import Smith from './assets/images/Avatars/Smith.png';
+import { OverlayCardProps } from './components/Cards/OverlayCards';
+import CarBack from './assets/images/carbackcard.png';
+import CarEngine from './assets/images/carbatterycard.png';
 
 export const features = [
   {
@@ -220,5 +223,26 @@ export const faqs = [
     question: 'Genuine spare parts during car repair?',
     answer:
       'Vestibulum tempor arcu ante, non auctor sapien laoreet eu. Integer ornare tortor ac leo aliquet viverra. Ut eu justo luctus, placerat urna ut, dictum libero. Donec et mauris sollicitudin, aliquet mi vitae, consectetur neque. Donec mi dui, dictum in scelerisque sed, posuere nec nunc. Vivamus commodo, est vel finibus porttitor, nisl.',
+  },
+];
+
+export const overlayCardContent: OverlayCardProps[] = [
+  {
+    title: 'Serve our customers and always deliver the customer service',
+    image: CarBack,
+    body: 'We provide a full range of front end mechanical repairs for all makes and models of cars, no matter the cause. This includes',
+    color: 'primary',
+  },
+  {
+    title: 'To be the world’s most eader in automotive business solutions.',
+    image: CarEngine,
+    body: 'We provide a full range of front end mechanical repairs for all makes and models of cars, no matter the cause. This includes',
+    color: 'dark',
+  },
+  {
+    title: 'We value the service we provide and our loyal returning customers ',
+    image: CarEngine,
+    body: 'We provide a full range of front end mechanical repairs for all makes and models of cars, no matter the cause. This includes ',
+    color: 'secondary',
   },
 ];
