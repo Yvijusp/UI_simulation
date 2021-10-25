@@ -11,7 +11,7 @@ export const Header = styled.section`
 
 export const HeaderText = styled.div`
   padding: 82px 0;
-  margin-right: 52px;
+  margin-right: 51px;
 
   h1 {
     margin-bottom: 32px;
