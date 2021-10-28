@@ -15,7 +15,6 @@ import {
   TeamWrapper,
 } from './AboutUs.styled';
 import Mechanic from '../assets/images/AboutUS/mechanic.png';
-import Button from '../components/Buttons/Button';
 import { Container, Title02 } from '../GlobalStyle';
 import CarFix from '../assets/images/AboutUS/carback.png';
 import {
@@ -27,7 +26,6 @@ import {
 } from '../templateData';
 import Step from '../components/Step/Step';
 import OverlayCard from '../components/Cards/OverlayCards';
-import Feature from '../components/Feature/Feature';
 import FeatureCard from '../components/Cards/FeatureCard';
 import Experience from '../components/Experience/Experience';
 import TeamCard from '../components/Cards/TeamCard';
