@@ -22,16 +22,15 @@ export const Nav = styled.nav`
     display: flex;
     align-items: center;
     list-style: none;
-
-    li {
-      padding: 32px 40px;
-      a {
-        color: var(--black-color);
-        text-decoration: none;
-        font-size: var(--paragraph-sm);
-        font-weight: 600;
-        line-height: 28px;
+    a {
+      li {
+        padding: 32px 40px;
       }
+      color: var(--black-color);
+      text-decoration: none;
+      font-size: var(--paragraph-sm);
+      font-weight: 600;
+      line-height: 28px;
     }
   }
 `;

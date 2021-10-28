@@ -33,7 +33,7 @@ import {
 export const features = [
   {
     image: ServiceLogo,
-    title: 'Conveniet service',
+    title: 'Convenient service',
     body: 'Through True Rich Attended does no end it his mother since real had half every him.',
   },
   {

@@ -1,4 +1,3 @@
-
 import { Assitance, Line, Logo, Nav, StyledHeader } from './Header.styled';
 import BrandLogo from '../../assets/logo/Logo.png';
 import { Caption, Container } from '../../GlobalStyle';
@@ -10,25 +9,27 @@ const Header = () => {
     <StyledHeader>
       <Container>
         <Logo>
-          <img src={BrandLogo} alt='finsweet' />
+          <Link to='/'>
+            <img src={BrandLogo} alt='finsweet' />
+          </Link>
         </Logo>
         <Nav>
           <ul>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/aboutus'>About Us</Link>
-            </li>
-            <li>
-              <Link to='/services'>Services</Link>
-            </li>
-            <li>
-              <Link to='/blog'>Blog</Link>
-            </li>
-            <li>
-              <Link to='/contacts'>Contact</Link>
-            </li>
+            <Link to='/'>
+              <li>Home</li>
+            </Link>
+            <Link to='/aboutus'>
+              <li>About Us</li>
+            </Link>
+            <Link to='/services'>
+              <li>Services</li>
+            </Link>
+            <Link to='/blog'>
+              <li>Blog</li>
+            </Link>
+            <Link to='/contacts'>
+              <li>Contact</li>
+            </Link>
           </ul>
           <Line />
           <Assitance>
@@ -42,7 +43,6 @@ const Header = () => {
       </Container>
     </StyledHeader>
   );
-
 };
 
 export default Header;

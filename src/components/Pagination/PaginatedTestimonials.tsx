@@ -29,8 +29,6 @@ const PaginatedTestimonials = ({ data }: Props) => {
   const indexOfFirstPage = indexOfLastPage - perPage;
   const currentData = data.slice(indexOfFirstPage, indexOfLastPage);
 
-  console.log(current);
-
   return (
     <StyledPagination>
       <Testimonials>
