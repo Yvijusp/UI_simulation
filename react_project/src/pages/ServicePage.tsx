@@ -4,10 +4,8 @@ import Template from '../components/templates/Template';
 import { Container, Title01 } from '../GlobalStyle';
 import { features, otherServices } from '../templateData';
 import {
-  Line,
   ServiceContainer,
   ServiceContent,
-  ServiceContentEnd,
   ServicePageWrapper,
   ServiceSideBar,
   SideBarFeatures,
@@ -15,6 +13,7 @@ import {
 } from './ServicePage.styled';
 import Vehicle from '../assets/images/services/bigvehicle.png';
 import CTA from '../components/CTA/CTA';
+import LineParagraph from '../components/LineParagraph/LineParagraph';
 
 const ServicePage = () => {
   return (
@@ -93,16 +92,13 @@ const ServicePage = () => {
                   accumsan lectus tincidunt placerat. Etiam ornare nibh vel dui
                   egestas, eu posuere metus convallis.
                 </p>
-                <ServiceContentEnd>
-                  <Line></Line>
-                  <span>
-                    Ut non urna a odio condimentum dictum. Proin egestas erat a
-                    orci ultrices, vitae bibendum libero posuere. Quisque
-                    laoreet tincidunt justo. Vestibulum congue dictum libero
-                    finibus vehicula. Aliquam nisi velit, ultricies eget enim
-                    vel, venenatis mollis ante.
-                  </span>
-                </ServiceContentEnd>
+                <LineParagraph>
+                  Ut non urna a odio condimentum dictum. Proin egestas erat a
+                  orci ultrices, vitae bibendum libero posuere. Quisque laoreet
+                  tincidunt justo. Vestibulum congue dictum libero finibus
+                  vehicula. Aliquam nisi velit, ultricies eget enim vel,
+                  venenatis mollis ante.
+                </LineParagraph>
               </div>
             </ServiceContent>
           </ServiceContainer>

@@ -7,6 +7,8 @@ import Tools from './tools.png';
 import TirePile from './tirepile.png';
 import CarInterior from './interiorcar.png';
 import Volkswagen from './wolkswagen.png';
+import LandscapeCar from './landscapecar.png';
+import Landscape from './landscape.png';
 
 export {
   Exhausts,
@@ -18,4 +20,6 @@ export {
   TirePile,
   CarInterior,
   Volkswagen,
+  LandscapeCar,
+  Landscape,
 };
