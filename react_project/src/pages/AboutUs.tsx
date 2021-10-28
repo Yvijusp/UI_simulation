@@ -5,9 +5,6 @@ import {
   FeaturesContainer,
   FeaturesExperience,
   FeaturesWrapper,
-  Header,
-  HeaderLeft,
-  HeaderRight,
   HeaderWrapper,
   Steps,
   StepsLeft,
@@ -35,26 +32,14 @@ import FeatureCard from '../components/Cards/FeatureCard';
 import Experience from '../components/Experience/Experience';
 import TeamCard from '../components/Cards/TeamCard';
 import CTA from '../components/CTA/CTA';
+import OverlayHeader from '../components/OverlayHeader/OverlayHeader';
 
 const AboutUs = () => {
   return (
     <Template>
       <HeaderWrapper>
         <Container>
-          <Header>
-            <HeaderRight>
-              <img src={Mechanic} alt='mechanic' />
-            </HeaderRight>
-            <HeaderLeft>
-              <h1>About Us</h1>
-              <p>
-                Through True Rich Attended does no end it his mother since real
-                had half every him case in packages enquire we up ecstatic
-                unsatiable saw Through True Rich Attended does
-              </p>
-              <Button primary text='Book a service' />
-            </HeaderLeft>
-          </Header>
+          <OverlayHeader image={Mechanic} />
         </Container>
       </HeaderWrapper>
       <StepsWrapper>
