@@ -16,8 +16,8 @@ body {
 h1 {
   font-size: 64px;
   font-weight: 800;
-  letter-spacing: -0.03em;
   line-height: 84px;
+letter-spacing: -0.03em;
 }
 
 h2 {
