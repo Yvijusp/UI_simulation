@@ -1,14 +1,14 @@
 ### FRONTEND
 # dependencies
-react_project/node_modules
-react_project/.pnp
+/node_modules
+/.pnp
 .pnp.js
 
 # testing
-react_project/coverage
+/coverage
 
 # production
-react_project/build
+/build
 
 # misc
 .DS_Store
@@ -21,6 +21,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-### BACKEND
-/backend/node_modules
-/backend/.env
