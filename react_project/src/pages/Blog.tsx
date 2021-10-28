@@ -6,6 +6,8 @@ import {
   BlogFourRight,
   BlogFourSection,
   BlogFourWrapper,
+  BlogFullContainer,
+  BlogFullWrapper,
   BlogHeaderContent,
   BlogHeaderContentContainer,
   BlogHeaderImage,
@@ -15,8 +17,10 @@ import {
 import CarFront from '../assets/images/blog/carfront.png';
 import { Link } from 'react-router-dom';
 import { LongArrow } from '../assets/icons';
-import { blogFour } from '../templateData';
+import { blogFour, blogFull } from '../templateData';
 import BlogGroup from '../components/Blog/BlogGroup';
+import BlogItem from '../components/Blog/BlogItem';
+import CTA from '../components/CTA/CTA';
 
 const Blog = () => {
   return (
@@ -78,6 +82,22 @@ const Blog = () => {
           </BlogFourSection>
         </Container>
       </BlogFourWrapper>
+      <BlogFullWrapper>
+        <Container>
+          <BlogFullContainer>
+            {blogFull.map((blogItem, index) => (
+              <BlogItem
+                key={index}
+                image={blogItem.image}
+                body={blogItem.body}
+                title={blogItem.title}
+                timestamp={blogItem.timestamp}
+              />
+            ))}
+          </BlogFullContainer>
+        </Container>
+      </BlogFullWrapper>
+      <CTA />
     </Template>
   );
 };

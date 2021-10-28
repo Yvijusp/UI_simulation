@@ -142,3 +142,13 @@ export const BlogFourRight = styled.div`
 
   max-width: 700px;
 `;
+
+export const BlogFullWrapper = styled.section`
+  ${wrapper.default}
+`;
+
+export const BlogFullContainer = styled.section`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px 32px;
+`;

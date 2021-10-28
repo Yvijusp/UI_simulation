@@ -18,7 +18,17 @@ import { OverlayCardProps } from './components/Cards/OverlayCards';
 import CarBack from './assets/images/carbackcard.png';
 import CarEngine from './assets/images/carbatterycard.png';
 import { Devon, Jalen, Javena, Kylee, Luisa, Paul } from './assets/images';
-import { CleanWheel, ElectricCar, Exhausts } from './assets/images/blog';
+import {
+  CarInterior,
+  CleanWheel,
+  ElectricCar,
+  Exhausts,
+  Speedometer,
+  SteeringWheel,
+  TirePile,
+  Tools,
+  Volkswagen,
+} from './assets/images/blog';
 
 export const features = [
   {
@@ -324,5 +334,44 @@ export const blogFour = [
     image: ElectricCar,
     title: 'Will Electric Technology Soon Rule The Road?',
     timestamp: 'Posted on October 6th 2021',
+  },
+];
+
+export const blogFull = [
+  {
+    image: Speedometer,
+    timestamp: 'Posted on October 6th 2021',
+    title: '5 Genius Car Accessories You Should Never Drive Without',
+    body: 'We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models',
+  },
+  {
+    image: SteeringWheel,
+    timestamp: 'Posted on October 6th 2021',
+    title: '5 Genius Car Accessories You Should Never Drive Without',
+    body: 'We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models',
+  },
+  {
+    image: Tools,
+    timestamp: 'Posted on October 6th 2021',
+    title: 'We provide blow straight past it with the wheels skidding',
+    body: 'We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models',
+  },
+  {
+    image: TirePile,
+    timestamp: 'Posted on October 6th 2021',
+    title: 'We provide blow straight past it with the wheels skidding',
+    body: 'We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models',
+  },
+  {
+    image: CarInterior,
+    timestamp: 'Posted on October 6th 2021',
+    title: '5 Genius Car Accessories You Should Never Drive Without',
+    body: 'We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models',
+  },
+  {
+    image: Volkswagen,
+    timestamp: 'Posted on October 6th 2021',
+    title: '5 Genius Car Accessories You Should Never Drive Without',
+    body: 'We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models',
   },
 ];
