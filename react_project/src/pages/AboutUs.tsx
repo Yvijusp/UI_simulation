@@ -39,7 +39,13 @@ const AboutUs = () => {
     <Template>
       <HeaderWrapper>
         <Container>
-          <OverlayHeader image={Mechanic} />
+          <OverlayHeader
+            image={Mechanic}
+            title='About Us'
+            body='Through True Rich Attended does no end it his mother since real had
+          half every him case in packages enquire we up ecstatic unsatiable saw
+          Through True Rich Attended does'
+          />
         </Container>
       </HeaderWrapper>
       <StepsWrapper>
