@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import F1 from '../assets/images/blog/f1car.png';
+import { wrapper } from './Services.styled';
 
 export const BlogHeaderWrapper = styled.section``;
 
@@ -75,4 +76,69 @@ export const BlogHeaderContent = styled.div`
       line-height: 175%;
     }
   }
+`;
+
+export const BlogFourWrapper = styled.section`
+  ${wrapper.default}
+  background-color: #F5F5F5;
+`;
+
+export const BlogFourSection = styled.section`
+  display: flex;
+  gap: 32px;
+`;
+
+export const BlogFourLeft = styled.div`
+  padding: 32px;
+  width: 537px;
+  background-color: var(--white-color);
+
+  img {
+    max-width: 473px;
+    margin-bottom: 32px;
+  }
+
+  h4 {
+    margin-bottom: 16px;
+  }
+
+  p {
+    color: #939191;
+    font-size: var(paragraph-sm);
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  p:nth-of-type(1) {
+    opacity: 0.8;
+    margin-bottom: 16px;
+  }
+  p:nth-of-type(2) {
+    color: #232536;
+    opacity: 0.6;
+    margin-bottom: 32px;
+  }
+
+  a {
+    color: var(--black-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: var(--paragraph-med);
+    line-height: 175%;
+    font-weight: 600;
+
+    span {
+      margin-right: 16px;
+    }
+  }
+`;
+
+export const BlogFourRight = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+
+  max-width: 700px;
 `;

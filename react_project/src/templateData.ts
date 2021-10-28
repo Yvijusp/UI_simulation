@@ -18,6 +18,7 @@ import { OverlayCardProps } from './components/Cards/OverlayCards';
 import CarBack from './assets/images/carbackcard.png';
 import CarEngine from './assets/images/carbatterycard.png';
 import { Devon, Jalen, Javena, Kylee, Luisa, Paul } from './assets/images';
+import { CleanWheel, ElectricCar, Exhausts } from './assets/images/blog';
 
 export const features = [
   {
@@ -305,5 +306,23 @@ export const otherServices = [
   {
     Icon: Battery,
     title: 'Batteries',
+  },
+];
+
+export const blogFour = [
+  {
+    image: Exhausts,
+    title: 'Get an Awesome Number Plate for Your New Car',
+    timestamp: 'Posted on October 6th 2021',
+  },
+  {
+    image: CleanWheel,
+    title: 'Would you Let a Robot Drive your Car? Our AI Future',
+    timestamp: 'Posted on October 6th 2021',
+  },
+  {
+    image: ElectricCar,
+    title: 'Will Electric Technology Soon Rule The Road?',
+    timestamp: 'Posted on October 6th 2021',
   },
 ];

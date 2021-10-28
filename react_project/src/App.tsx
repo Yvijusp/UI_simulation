@@ -20,7 +20,7 @@ function App() {
         <Route path='/aboutus' component={AboutUs} />
         <Route path='/contacts' component={Contact} />
         <Route exact path='/blog' component={Blog} />
-        <Route path='/blog/:id' component={BlogPage} />
+        <Route path='/blogpost' component={BlogPage} />
       </Switch>
     </Router>
   );
