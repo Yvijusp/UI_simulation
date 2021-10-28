@@ -3,17 +3,32 @@ import Template from '../components/templates/Template';
 import { Container, Title02 } from '../GlobalStyle';
 import {
   HeaderWrapper,
+  HowBottom,
+  HowBottomLeft,
+  HowBottomRight,
+  HowTop,
+  HowTopLeft,
+  HowTopRight,
+  HowWrapper,
   ServicesContainer,
   ServicesLeft,
   ServicesRight,
   ServicesWrapper,
 } from './Services.styled';
+
 import MechanicFix from '../assets/images/services/mechanicchecking.png';
 import Vehicle from '../assets/images/services/vehicle.png';
+import Car from '../assets/images/how/car.png';
+import CarFix from '../assets/images/how/carfix.png';
+import OpenHood from '../assets/images/how/openhood.png';
+import Tires from '../assets/images/how/tires.png';
 import { Link } from 'react-router-dom';
 import { LongArrow } from '../assets/icons';
-import { offers } from '../templateData';
+import { hows, offers } from '../templateData';
 import ServiceCard from '../components/Cards/ServiceCard';
+import How from '../components/How/How';
+import Button from '../components/Buttons/Button';
+import CTA from '../components/CTA/CTA';
 
 const Services = () => {
   return (
@@ -68,6 +83,42 @@ const Services = () => {
           </ServicesContainer>
         </Container>
       </ServicesWrapper>
+      <HowWrapper>
+        <Container>
+          <HowTop>
+            <HowTopLeft>
+              <h3>How we work and the proccess we follow</h3>
+              <div>
+                {hows.map((how, index) => (
+                  <How text={how.text} key={index} />
+                ))}
+              </div>
+            </HowTopLeft>
+            <HowTopRight>
+              <img src={Car} alt='car' />
+              <img src={CarFix} alt='carfix' />
+            </HowTopRight>
+          </HowTop>
+          <HowBottom>
+            <HowBottomLeft>
+              <img src={Tires} alt='tires' />
+              <img src={OpenHood} alt='openhood' />
+            </HowBottomLeft>
+            <HowBottomRight>
+              <h3>Diagnose Car Problems If You Don’t Know Much About Cars</h3>
+              <p>
+                We provide a full range of front end mechanical repairs for all
+                makes and models of cars, no matter the cause. This includes
+                everything from struts, shocks, and tie rod ends to ball joints,
+                springs everything from struts, shocks, and tie rod ends to ball
+                joints, springs
+              </p>
+              <Button text='Book a service' primary />
+            </HowBottomRight>
+          </HowBottom>
+        </Container>
+      </HowWrapper>
+      <CTA />
     </Template>
   );
 };

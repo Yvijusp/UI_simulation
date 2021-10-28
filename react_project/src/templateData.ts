@@ -280,3 +280,15 @@ export const team = [
     position: 'Support Assistant',
   },
 ];
+
+export const hows = [
+  {
+    text: 'Through True Rich Attended does no end it his mother since',
+  },
+  {
+    text: 'Attended does no end it his mother since real had half every',
+  },
+  {
+    text: 'Since real had half every him case in packages enquire we up ecstatic',
+  },
+];

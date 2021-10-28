@@ -63,3 +63,81 @@ export const ServicesRight = styled.div`
   gap: 32px;
   grid-template-columns: repeat(2, 1fr);
 `;
+
+export const HowWrapper = styled.section`
+  ${wrapper.default}
+`;
+
+export const HowContainer = styled.section`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const HowTop = styled.section`
+  display: flex;
+  justify-content: space-between;
+  ${wrapper.bottom}
+`;
+
+export const HowTopLeft = styled.div`
+  max-width: 500px;
+
+  h3 {
+    margin-bottom: 48px;
+  }
+
+  div {
+    margin-bottom: 32px;
+  }
+  div:last-child {
+    margin: 0;
+  }
+`;
+
+export const HowTopRight = styled.div`
+  display: flex;
+  gap: 16px;
+
+  img {
+    height: 477px;
+  }
+`;
+
+export const HowBottom = styled.section`
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const HowBottomLeft = styled.div`
+  display: flex;
+  gap: 16px;
+
+  img {
+    height: 489px;
+  }
+`;
+
+export const HowBottomRight = styled.div`
+  max-width: 547px;
+  position: relative;
+
+  h3 {
+    margin-bottom: 32px;
+  }
+
+  p {
+    font-size: var(--paragraph-med);
+    opacity: 0.6;
+    color: var(--black-color);
+    line-height: 175%;
+    font-weight: 600;
+    width: 512px;
+
+    margin-bottom: 32px;
+  }
+
+  button {
+    position: absolute;
+    bottom: 0;
+  }
+`;
