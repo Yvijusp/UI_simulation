@@ -292,3 +292,18 @@ export const hows = [
     text: 'Since real had half every him case in packages enquire we up ecstatic',
   },
 ];
+
+export const otherServices = [
+  {
+    Icon: Engine,
+    title: 'Engine Repair',
+  },
+  {
+    Icon: Diagnostics,
+    title: 'Car Wash',
+  },
+  {
+    Icon: Battery,
+    title: 'Batteries',
+  },
+];

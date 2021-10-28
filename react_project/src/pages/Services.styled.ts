@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Title02 } from '../GlobalStyle';
 
-const wrapper = {
+export const wrapper = {
   default: 'padding: 128px 0;',
   small: 'padding: 48px 0;',
   header: 'padding: 80px 0 128px 0;',
